@@ -15,27 +15,17 @@
       overflow: hidden;
     }
 
-    .fog {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: url('https://i.imgur.com/o5p9v0L.png') repeat;
-      opacity: 0.04;
-      pointer-events: none;
-      z-index: 1000;
-    }
-
     img {
-      width: 300px;
+      width: 400px;
       cursor: pointer;
-      border: 2px solid #444;
       transition: transform 0.3s;
     }
 
-    img:hover {
-      transform: scale(1.05);
+    h1{
+      font-size: 32px;
+      margin-bottom: 30px;
+      text-shadow: 0 0 5px red;
     }
-
     .container {
       position: relative;
       z-index: 10;
@@ -48,12 +38,10 @@
     <p>O silêncio reina. Há algo à sua frente...</p>
     
     <!-- IMAGEM CLICÁVEL -->
-    <a href="escreva_a_resposta_aqui/">
-      <img src="assets/img/vela.png" alt="Clique para continuar" />
+    <a href="escreva_a_resposta_aqui.html">
+      <img src="assets/img/portão.png" alt="Clique e sofra" />
     </a>
   </div>
 
-  <!-- NEBLINA -->
-  <div class="fog"></div>
 </body>
 </html>
